@@ -3,10 +3,7 @@ package com.example.pawo.menu;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.example.pawo.calculator.Addition;
-import com.example.pawo.calculator.Division;
-import com.example.pawo.calculator.Multiplication;
-import com.example.pawo.calculator.Substraction;
+import com.example.pawo.calculator.*;
 
 public class Calculator {
 
@@ -24,7 +21,7 @@ public class Calculator {
         logger.log(Level.INFO,"Enter second number:");
         double b = this.scannerValue.getValue();
 
-        logger.log(Level.INFO,"Enter your selection: 1 for Addition, 2 for Substraction 3 for Multiplication and 4 for Division:");
+        logger.log(Level.INFO,"Enter your selection:\n 1 for Addition,\n 2 for Substraction, \n 3 for Multiplication,\n 4 for Division, \n (Only first number): \n 5 for Root,\n 6 for Power Square, \n 7 for Power Cube, \n 8 for Reverse :");
         int choose = (int)this.scannerValue.getValue();
 
         double result = program(a, b, choose);
@@ -48,6 +45,20 @@ public class Calculator {
                 return new Multiplication().operation(a, b);
             case 4:
                 return new Division().operation(a, b);
+            case 5:
+                return new Root().operation(a);
+            case 6:
+                return new PowerSquare().operation(a);
+            case 7:
+                return new PowerCube().operation(a);
+            case 8:
+                return new Reverse().operation(a);
+                //Procent
+                //sinus
+                //cosinus
+                //tangens
+                //cotangens
+
             default:
                 return 0;
 

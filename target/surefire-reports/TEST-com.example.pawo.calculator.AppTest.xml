@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="com.example.pawo.calculator.AppTest" time="0.259" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.example.pawo.calculator.AppTest" time="0.266" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\pa-wo\Desktop\Projekt"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\pa-wo\Desktop\Praca\Projekty Programistyczne\Office-Calculator"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\pa-wo\Desktop\Projekt"/>
+    <property name="user.dir" value="C:\Users\pa-wo\Desktop\Praca\Projekty Programistyczne\Office-Calculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -62,12 +62,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationSubstraction" time="0.194"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationSubstraction" time="0.201"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationInvalid" time="0"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationMultiplication" time="0"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testRun" time="0.054"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationMultiplication" time="0.001"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testRun" time="0.056"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationDivision" time="0.001"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testMainMethod" time="0.007"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testRunBadOperation" time="0.002"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationAddition" time="0.001"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationAddition" time="0"/>
 </testsuite>

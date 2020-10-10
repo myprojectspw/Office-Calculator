@@ -1,9 +1,13 @@
 com\example\pawo\calculator\Addition.class
-com\example\pawo\calculator\Multiplication.class
+com\example\pawo\calculator\Reverse.class
+com\example\pawo\calculator\PowerSquare.class
 com\example\pawo\menu\ScannerValue.class
 com\example\pawo\menu\Scanners.class
+com\example\pawo\calculator\Substraction.class
+com\example\pawo\menu\App.class
+com\example\pawo\calculator\Multiplication.class
+com\example\pawo\calculator\Root.class
+com\example\pawo\calculator\PowerCube.class
 com\example\pawo\calculator\IOperation.class
 com\example\pawo\calculator\Division.class
-com\example\pawo\calculator\Substraction.class
 com\example\pawo\menu\Calculator.class
-com\example\pawo\menu\App.class

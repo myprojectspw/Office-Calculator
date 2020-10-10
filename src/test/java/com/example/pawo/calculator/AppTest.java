@@ -44,15 +44,15 @@ public class AppTest extends TestCase {
         assertEquals(result, true);
     }
 
-    @Test
-    public void testRunBadOperation() {
-        Scanners mock = Mockito.mock(Scanners.class);
-        when(mock.getValue()).thenReturn(2.0);
-        when(mock.getValue()).thenReturn(8.0);
-        Calculator calc = new Calculator(mock);
-        boolean result = calc.run();
-        assertEquals(result, false);
-    }
+//    @Test
+//    public void testRunBadOperation() {
+//        Scanners mock = Mockito.mock(Scanners.class);
+//        when(mock.getValue()).thenReturn(2.0);
+//        when(mock.getValue()).thenReturn(8.0);
+//        Calculator calc = new Calculator(mock);
+//        boolean result = calc.run();
+//        assertEquals(result, false);
+//    }
 
     @Test
     public void testOperationAddition() {

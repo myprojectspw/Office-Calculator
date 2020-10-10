@@ -54,4 +54,40 @@ public class AppTestOperation extends TestCase {
         assertEquals(result, operation.operation(a, b));
 
     }
+
+    @Test
+    public void testRoot() {
+        final Root operation = new Root();
+        double a = 5;
+        double result = Math.sqrt(a);
+        assertEquals(result, operation.operation(a));
+
+    }
+
+    @Test
+    public void testPowerSquare() {
+        final PowerSquare operation = new PowerSquare();
+        double a = 5;
+        double result = Math.pow(a, 2);
+        assertEquals(result, operation.operation(a));
+
+    }
+
+    @Test
+    public void testPowerCube() {
+        final PowerCube operation = new PowerCube();
+        double a = 5;
+        double result = Math.pow(a, 3);
+        assertEquals(result, operation.operation(a));
+
+    }
+
+    @Test
+    public void testReverse() {
+        final Reverse operation = new Reverse();
+        double a = 5;
+        double result = (double)1/a;
+        assertEquals(result, operation.operation(a));
+
+    }
 }
