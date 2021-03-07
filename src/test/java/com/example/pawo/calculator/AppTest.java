@@ -19,6 +19,7 @@ import static org.mockito.Mockito.*;
 
 /**
  * Unit test for simple App.
+ * IMPORTANT TO HAVE A TEST IN APPTEST
  */
 
 public class AppTest extends TestCase {
@@ -102,5 +103,14 @@ public class AppTest extends TestCase {
         int op = 0;
 
         assertEquals(calc.program(a, b, op), 0.0);
+    }
+
+    @Test
+    public void testRoot() {
+        final Root operation = new Root();
+        double a = 5;
+        double result = Math.sqrt(a);
+        assertEquals(result, operation.operation(a));
+
     }
 }

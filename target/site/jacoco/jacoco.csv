@@ -4,7 +4,7 @@ calculator,com.example.pawo.calculator,Multiplication,0,7,0,0,0,2,0,2,0,2
 calculator,com.example.pawo.calculator,Substraction,0,7,0,0,0,2,0,2,0,2
 calculator,com.example.pawo.calculator,PowerSquare,7,0,0,0,2,0,2,0,2,0
 calculator,com.example.pawo.calculator,PowerCube,7,0,0,0,2,0,2,0,2,0
-calculator,com.example.pawo.calculator,Root,6,0,0,0,2,0,2,0,2,0
+calculator,com.example.pawo.calculator,Root,0,6,0,0,0,2,0,2,0,2
 calculator,com.example.pawo.calculator,Addition,0,7,0,0,0,2,0,2,0,2
 calculator,com.example.pawo.calculator,Reverse,7,0,0,0,2,0,2,0,2,0
 calculator,com.example.pawo.menu,Scanners,6,6,0,0,2,1,2,1,2,1

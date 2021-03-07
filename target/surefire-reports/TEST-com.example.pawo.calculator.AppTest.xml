@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="com.example.pawo.calculator.AppTest" time="0.266" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.example.pawo.calculator.AppTest" time="0.272" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.7+8-LTS"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\pa-wo\Desktop\Praca\Projekty Programistyczne\Office-Calculator"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\pa-wo\Desktop\Hobby\Projekty Programistyczne\Office-Calculator"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\pa-wo\Desktop\Praca\Projekty Programistyczne\Office-Calculator"/>
+    <property name="user.dir" value="C:\Users\pa-wo\Desktop\Hobby\Projekty Programistyczne\Office-Calculator"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-11.0.7\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11.0.7;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\pa-wo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files\Git\bin\;C:\PHP7;C:\Program Files (x86)\Yarn\bin\;C:\AngularJS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\dotnet\;C:\PROGRA~1\IBM\SQLLIB\BIN;C:\PROGRA~1\IBM\SQLLIB\FUNCTION;C:\PROGRA~1\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files\PuTTY\;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\micro-integrator\\bin;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\streaming-integrator\\bin;C:\Program Files\Java\jdk1.8.0_181;C:\Users\pa-wo\anaconda3;C:\Users\pa-wo\anaconda3\Library\mingw-w64\bin;C:\Users\pa-wo\anaconda3\Library\usr\bin;C:\Users\pa-wo\anaconda3\Library\bin;C:\Users\pa-wo\anaconda3\Scripts;C:\Users\pa-wo\AppData\Local\Microsoft\WindowsApps;C:\Users\pa-wo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Salesforce CLI\bin;C:\Program Files\Git\bin\git.exe;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;;C:\Users\pa-wo\PycharmProjects\pierwszy\venv\Scripts;C:\Users\pa-wo\AppData\Local\Yarn\bin;C:\Users\pa-wo\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11.0.7;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\pa-wo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.7;C:\Program Files\Git\bin\;C:\PHP7;C:\Program Files (x86)\Yarn\bin\;C:\AngularJS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\micro-integrator\\bin;C:\Program Files\WSO2\Enterprise Integrator\7.0.2\streaming-integrator\\bin;D:\bin;C:\Gradle\gradle-6.7.1\bin;C:\Program Files\Java\jdk1.8.0_181;C:\Users\pa-wo\anaconda3;C:\Users\pa-wo\anaconda3\Library\mingw-w64\bin;C:\Users\pa-wo\anaconda3\Library\usr\bin;C:\Users\pa-wo\anaconda3\Library\bin;C:\Users\pa-wo\anaconda3\Scripts;C:\Users\pa-wo\AppData\Local\Microsoft\WindowsApps;C:\Users\pa-wo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Salesforce CLI\bin;C:\Program Files\Git\bin\git.exe;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;;C:\Users\pa-wo\PycharmProjects\pierwszy\venv\Scripts;C:\Users\pa-wo\AppData\Local\Yarn\bin;C:\Users\pa-wo\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\pa-wo\.dotnet\tools;C:\Users\pa-wo\.dotnet\tools;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,11 +62,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationSubstraction" time="0.201"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationSubstraction" time="0.203"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationInvalid" time="0"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationMultiplication" time="0.001"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testRun" time="0.056"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationDivision" time="0.001"/>
-  <testcase classname="com.example.pawo.calculator.AppTest" name="testMainMethod" time="0.007"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testRun" time="0.059"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testRoot" time="0.001"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationDivision" time="0.002"/>
+  <testcase classname="com.example.pawo.calculator.AppTest" name="testMainMethod" time="0.006"/>
   <testcase classname="com.example.pawo.calculator.AppTest" name="testOperationAddition" time="0"/>
 </testsuite>
